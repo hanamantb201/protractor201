@@ -1,0 +1,15 @@
+{
+  "name": "eclipse-workspace",
+  "dependencies":{
+  
+  
+  
+  },
+  
+  "scripts": {
+  
+  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+ 
+}

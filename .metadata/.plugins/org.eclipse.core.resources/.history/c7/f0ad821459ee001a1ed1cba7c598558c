@@ -1,0 +1,12 @@
+describe('test suite',function(){
+		{
+	
+	it ('test case', function(){
+		
+		browser.get('https://angularjs.org');
+		console.log("Hellow world");
+	            });
+	
+	
+	
+		});

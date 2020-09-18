@@ -1,0 +1,20 @@
+exports.config = {
+  framework: 'jasmine',
+  seleniumAddress: 'http://localhost:4444/wd/hub',
+  specs: ['test1.js'],
+  
+  
+
+	   
+	  
+	   
+	   onPrepare: function() {
+		   
+		   browser.driver.manger().window().maximize();
+		      jasmine.getEnv().addReporter(
+		        new Jasmine2HtmlReporter({
+		          savePath: 'target/screenshots'
+		        })
+		      );
+		   }
+		}
